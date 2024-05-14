@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup and Login</title>
+    <link rel="icon" type="image/png" href="https://cdn3.f-cdn.com/contestentries/1760014/2562791/5e9212fa333d1_thumb900.jpg">
+    <link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form id="signupForm" autocomplete="off">
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="username" id="username" placeholder="Enter User name" required="">
+					<input type="email" name="email" id="email" placeholder="Enter Email" required="">
+                    <input type="number" name="mobile" id="mobile" placeholder="Enter Mobile Number" required="">
+					<input type="password" name="password" id="password" placeholder="Enter Password" required="">
+					<button type="submit">Sign up</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form id="loginForm" autocomplete="off">
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" id="loginEmail" placeholder="Enter Email" required="">
+					<input type="password" name="password" id="loginPassword" placeholder="Enter Password" required="">
+					<button type="submit">Login</button>
+				</form>
+			</div>
+	</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
